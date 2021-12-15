@@ -13,7 +13,6 @@ public class TextShow : MonoBehaviour{
         this.title.text = title;
         this.description.text = description;
     }
-
     public void ShowText(string title,string description){
         if(activeObject == true) return;
         Setup(title, description);
